@@ -1,33 +1,26 @@
 package org.learning.carracing;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 public class Participant {
 	public static void main(String args[]) {
-		//Choose your car
+		Race r;
 		
-		Car ferrari = new Ferrari();
-		Car jaguar = new Jaguar();
-		// Ford
-		// McLaren
-		
-		
-		// Who will create for us?
-		// When????
-		// When to destroy the object
-		// How to inject the dependency
-		
-		//IoC container	// provided by Spring Framework
+		//BeanFactory
+		//ApplicationContext
+		//ApplicationContext ctx1 = 
+		//		new FileSystemXmlApplicationContext("ApplicationContext.xml");
 		
 		
+		ApplicationContext ctx1 = 
+				new ClassPathXmlApplicationContext("ApplicationContext.xml");
+		// AnnotationConfigApplicationContext,
+		// FileSystemXmlApplicationContext
+		// ClassPathXmlApplicationContext
 		
-		Race r = new Race();	
-		r.setCar(jaguar);	//Injected the dependency
-							//through setter method
-		r.startRace();
-		
-		Race r2 = new Race(ferrari);	//Injected the dependency
-										//through the constructor
-		
-		r2.startRace();
+		Race race = (Race) ctx1.getBean("race");
+		race.startRace();
 		
 		
 	}

@@ -1,4 +1,6 @@
-package org.learning.carracing;
+package org.learning.carracing.car;
+
+import org.learning.carracing.Car;
 
 public class Ferrari implements Car {
 
@@ -13,3 +15,5 @@ public class Ferrari implements Car {
 	}
 
 }
+
+

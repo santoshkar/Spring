@@ -1,6 +1,8 @@
-package org.learning.carracing;
+package org.learning.carracing.car;
 
-public class Jaguar implements Car{
+import org.learning.carracing.Car;
+
+public class McLaren implements Car{
 
 	public void startEngine() {
 		System.out.println("Start Engine of Jaguar");
