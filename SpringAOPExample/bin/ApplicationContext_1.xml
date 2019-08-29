@@ -11,14 +11,11 @@
 	<bean id="afterAdvice" class="com.learning.aop.AfterAdvisor"></bean>
 	<bean id="aroundAdvice" class="com.learning.aop.AroundAdvisor"></bean>
 	<bean id="throwAdvice" class="com.learning.aop.ThrowsAdvisor"></bean>
-	
-	
-	<bean id="proxy" class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
-		<property name="beanNames">
-			<list>
-				<value>*Service</value>
-			</list>
-		</property>
+
+
+	<bean id="studentServiceProxy"
+		class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="target" ref="studentService"></property>
 		<property name="interceptorNames">
 			<list>
 				<value>aroundAdvice</value>
@@ -28,6 +25,4 @@
 			</list>
 		</property>
 	</bean>
-
-
 </beans>

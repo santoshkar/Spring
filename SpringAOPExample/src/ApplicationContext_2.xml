@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="studentService" class="com.learning.StudentServiceImpl">
+	</bean>
+
+	<bean id="beforeAdvice" class="com.learning.aop.BeforeAdvisor"></bean>
+	<bean id="afterAdvice" class="com.learning.aop.AfterAdvisor"></bean>
+	<bean id="aroundAdvice" class="com.learning.aop.AroundAdvisor"></bean>
+	<bean id="throwAdvice" class="com.learning.aop.ThrowsAdvisor"></bean>
+
+	<bean id="studentServiceProxy" class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<property name="beanNames">
+			<list>
+				<value>*Service</value>
+			</list>
+		</property>
+		<property name="interceptorNames">
+			<list>
+				<value>aroundAdvice</value>
+				<value>afterAdvice</value>
+				<value>beforeAdvice</value>
+				<value>throwAdvice</value>
+			</list>
+		</property>
+	</bean>
+	
+
+
+
+</beans>
