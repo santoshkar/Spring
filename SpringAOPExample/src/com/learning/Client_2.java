@@ -13,6 +13,13 @@ public class Client_2 {
 		 * Because we have used BeanNameAutoProxyCreator which is taking care of proxy and bean
 		 */
 		StudentServiceImpl service = (StudentServiceImpl) ctx.getBean("studentService");
+		System.out.println("\n-------------\n");
+		service.saveStudents();
+		
+		System.out.println("\n-------------\n");
+		service.updateStudents();
+		
+		System.out.println("\n-------------\n");
 		service.showStudentList();
 	}
 }

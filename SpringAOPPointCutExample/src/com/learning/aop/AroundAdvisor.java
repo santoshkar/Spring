@@ -6,9 +6,9 @@ import org.aopalliance.intercept.MethodInvocation;
 public class AroundAdvisor implements MethodInterceptor{
 
 	public Object invoke(MethodInvocation invocation) throws Throwable {
-		System.out.println("Concern Before service :> "+invocation.getMethod().getName());
+		System.out.println("Concern Before service");
 		Object obj = invocation.proceed();
-		System.out.println("Concern After the service :> "+invocation.getMethod().getName());
+		System.out.println("Concern After the service");
 		return obj;
 	}
 
