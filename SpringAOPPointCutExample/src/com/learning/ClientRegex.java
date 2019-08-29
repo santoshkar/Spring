@@ -12,7 +12,7 @@ public class ClientRegex {
 		 * Notice here, we are using the service bean, but NOT the proxy bean 
 		 * Because we have used BeanNameAutoProxyCreator which is taking care of proxy and bean
 		 */
-		StudentServiceImpl service = (StudentServiceImpl) ctx.getBean("studentServiceProxy");
+		StudentServiceImpl service = (StudentServiceImpl) ctx.getBean("studentProxy");
 		System.out.println("\n-------------\n");
 		service.saveStudents();
 		
