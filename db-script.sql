@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS student;DROP TABLE IF EXISTS dept;
+DROP TABLE IF EXISTS dept;
 CREATE TABLE dept (
   deptId int(11) NOT NULL AUTO_INCREMENT,
   deptname varchar(45)NOT NULL,
