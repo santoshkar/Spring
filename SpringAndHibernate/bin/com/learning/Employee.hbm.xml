@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.learning.Employee" table="EMP" >
+		<id name="employeeId" type="long" column="empid">
+			<generator class="increment" />
+		</id>
+
+		<property name="name">
+			<column name="name"></column>
+		</property>
+		
+		<!-- <property name="deptId">
+			<column name="deptId"></column>
+		</property> -->
+
+		<!-- <many-to-one name="department" column="deptId"
+			class="com.learning.entity.Department" 
+			cascade="delete" lazy="false" /> -->
+
+		<property name="salary" type="java.lang.Double">
+			<column name="SAL" />
+		</property>
+	</class>
+</hibernate-mapping>
+
+
+
