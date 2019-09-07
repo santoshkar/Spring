@@ -1,1 +1,1 @@
-This example uses TransactionTemplate
+This example uses PlatformTransactionManager
