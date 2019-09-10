@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/asm-all-3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/asm-debug-all-3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/commons-collections-2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/commons-dbcp-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/commons-logging-1.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/commons-logging-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/commons-logging-adapters-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/commons-logging-tests.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/commons-pool-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/dom4j-1.5.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/hibernate-3.2.6.ga.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/javax.transaction-api-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/log4j.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/mysql-connector-java-8.0.16.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-aop.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-aspects.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-beans.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-context.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-core.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-dao.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-hibernate2.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-hibernate3.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-ibatis.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-jca.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-jdbc.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-jdo.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-jms.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-jmx.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-jpa.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-mock.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-portlet.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-remoting.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-struts.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-support.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-toplink.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-web.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring-webmvc.jar"/>
+	<classpathentry kind="lib" path="/Users/santoshkumarkar/.m2/Userlibrary/OldLibrary/spring.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

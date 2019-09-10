@@ -1,0 +1,1 @@
+This example uses PlatformTransactionManager
