@@ -8,7 +8,7 @@
 	</head>
 
 	<body>
-		<%@include file="authheader.jsp" %>	
-		Welcome to home page
+		<h2>Welcome to home page</h2>
+		<a href="<c:url value="/logout" />">Logout</a>
 	</body>
 </html>
