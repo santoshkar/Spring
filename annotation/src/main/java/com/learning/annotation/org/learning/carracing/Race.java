@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 public class Race {	//Does not need know which car
 	
 	@Autowired
-	@Qualifier("jjjjj")
 	private Car car;			//name is car
 								//type is Car (.class)
 	public Race(Car car) {
