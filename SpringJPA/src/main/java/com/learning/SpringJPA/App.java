@@ -25,8 +25,10 @@ public class App
         empService.createNewEmployee(emp);
         */
         
-        Employee e = empService.getEmployeeById(1L);
-        System.out.println(e);
+        /*Employee e = empService.getEmployeeById(1L);
+        System.out.println(e);*/
+        
+        System.out.println(empService.getEmployeesByName("Sudhakar"));
         
         
     }

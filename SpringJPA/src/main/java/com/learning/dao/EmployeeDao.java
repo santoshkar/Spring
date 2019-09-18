@@ -9,5 +9,7 @@ public interface EmployeeDao {
 	
 	public Employee findById(Long id);
 	
+	public List<Employee> findByName(String name);
+	
 	public List<Employee> findAll();
 }

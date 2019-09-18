@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.transaction.Transactional;
 
@@ -44,4 +45,20 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		return entityManager.createQuery(criteriaQuery).getResultList();
 	}
 
+
+	public List<Employee> findByName(String name) {
+		Query query = entityManager.createQuery("FROM Employee e WHERE e.name = ?1");
+		// Query query = entityManager.createNamedQuery("FROM Employee e WHERE e.name = :name");
+		query.setParameter(1, "Sudhakar");
+		List<Employee> list = query.getResultList();
+		return list;
+	}
+
 }
+
+
+
+
+
+
+
